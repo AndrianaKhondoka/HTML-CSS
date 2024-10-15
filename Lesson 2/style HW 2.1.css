@@ -1,0 +1,52 @@
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: #403f3f;
+    padding-top: 30px;
+}
+body{
+    background-color: #e8e3e3;
+}
+*{
+    font-family: Calibri;
+    margin: 0;
+    padding: 0;
+}
+.fridge{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content:center;
+    align-items: center;
+    margin: 30px 50px;
+}
+.food{
+    background-color: #efebeb;
+    width: 220px;
+    height: 250px;
+    border: 1px solid #a6a4a4;
+    border-radius: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.food img{
+    width: 65%;
+    height: 130px;
+    object-fit: cover;
+}
+.food p{
+    font-size: 20px;
+    color: #403f3f;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    color: #403f3f;
+    font-weight: bold;
+    padding: 20px 0;
+}

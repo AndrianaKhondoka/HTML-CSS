@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Вхід в особистий кабінет</title>
+    <style>
+        body{
+            height: 100vh;
+            background: #048a7f;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+        }
+        .enter{
+            background: white;
+            width: 35vw;
+            height: 55vh;
+            border-radius: 10px;
+        }
+        .enter div:first-child{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(138, 216, 211, 0.51);
+            border-radius: 10px 10px 0 0;
+            padding: 15px 0 ;
+            font-size: 18px;
+
+        }
+        .enter form{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 15px;
+        }
+        .enter>form>input[type="text"], input[type="password"]{
+            width: 350px;
+            padding: 10px;
+            margin-bottom: 25px;
+        }
+        .enter>form>div{
+            width: 370px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .enter form input[type="submit"]{
+            width: 85px;
+            padding: 5px;
+            border-radius: 10px;
+            background: rgba(138, 216, 211, 0.51);
+            border: 1px solid grey ;
+        }
+
+    </style>
+</head>
+<body>
+<div class="enter">
+    <div>
+        <h2>Вхід в особистий кабінет</h2>
+    </div>
+    <form>
+        <input type="text" name="login" placeholder="Логін або email">
+        <input type="password" name="password" placeholder="Пароль">
+      <div>
+          <label>
+              Запам'ятати мене
+              <input type="checkbox" name="remember">
+          </label>
+          <input type="submit" value="Вхід">
+      </div>
+    </form>
+</div>
+
+</body>
+</html>

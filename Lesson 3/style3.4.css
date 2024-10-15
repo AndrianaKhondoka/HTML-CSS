@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comfortaa:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(77, 76, 76);
+    font-size: 20px;
+
+}
+header div{
+    text-align: center;
+}
+
+.active-link{
+    color: rgb(5, 21, 5);
+}
+.success{
+    height: 20vh;
+    background-image:linear-gradient(180deg, rgba(253, 241, 241, 0.2) 0%, rgba(253, 241, 241, 0.2) 45%), url('https://static.vecteezy.com/system/resources/previews/006/831/700/non_2x/panorama-banner-background-of-tropical-forest-landscape-scene-for-using-in-concept-of-environmental-ecology-and-sustainable-energy-or-earth-day-wild-wood-scenic-using-for-wallpaper-of-spa-and-tourism-free-photo.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 50px;
+    font-family: "Orbitron", sans-serif;
+}
+.success p{
+    font-size: 16px;
+}
+.success h1{
+    font-size: 50px;
+    letter-spacing: 20px;
+}
+.success button{
+    margin-top: 30px;
+    height: 40px;
+    width: 140px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+main h2,h4,h3,p{
+    font-family: "Orbitron", sans-serif
+}
+.blog{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    padding: 50px;
+    gap: 10px;
+}
+.blog h2{
+    font-size: 40px;
+    color: rgb(77, 76, 76);
+    letter-spacing: 10px;
+    padding-left: 50px;
+}
+.blog h4{
+    font-size: 25px;
+    color: rgb(13, 69, 17);
+    padding-left: 50px;
+}
+.blog p{
+    font-size: 20px;
+    color: rgb(13, 69, 17);
+    padding-left: 50px;
+    font-family: "Inter", sans-serif;;
+}
+.story{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.story img{
+    width: 100%;
+    height: 55%;
+    object-fit: cover;
+    object-position: top;
+}
+.article1{
+    width: 40vw;
+    height: 40vw;
+    background-color: #b5eab9;
+}
+.article2{
+    width: 40vw;
+    height: 40vw;
+    background-color: #b5eab9;
+}
+.article3{
+    width: 40vw;
+    height: 40vw;
+    background-color: #b5eab9
+}
+.article4{
+    width: 40vw;
+    height: 40vw;
+    background-color: #b5eab9
+}
+.story h3{
+    font-size: 25px;
+    font-family: "Abril Fatface", serif;
+    padding: 20px;
+
+}
+.story h6{
+    font-size: 15px;
+    font-family: "Comfortaa", sans-serif;
+    padding-left: 20px;
+
+}
+.story p{
+    font-size: 18px;
+    font-family: "Libre Franklin", sans-serif;
+    padding: 10px 20px;
+
+}
