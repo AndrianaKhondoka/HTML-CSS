@@ -1,0 +1,14 @@
+@media screen and (max-width: 480px) {
+   .items{
+       width: 100%;
+       margin: 32px 16px;
+       flex-direction: column;
+   }
+    .item{
+        width: 343px;
+    }
+    .item h3{
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
+}

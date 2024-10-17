@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.cards{
+    width: 1180px;
+    height: 772px;
+    padding: 20px 0;
+    margin: 0 auto;
+    font-family: "Inter", serif;
+    display: flex;
+    align-items: normal;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.card{
+    width: 372px;
+    text-align: center;
+}
+.card img{
+    width: 100%;
+}
+.card h5{
+    color:  #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.card p{
+    align-self: stretch;
+    color: #3C3C43;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
